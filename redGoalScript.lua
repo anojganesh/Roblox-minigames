@@ -4,7 +4,7 @@ local soccerBall = game.Workspace.SoccerBall
 
 function onTouch(part)
 	if part == soccerBall then -- if soccer ball touches red goal area
-		for i, part in pairs(exclaimationModel:getChildren()) do -- making celebration and sound parts/effects visible 
+		for i, part in pairs(exclaimationModel:getChildren()) do -- making celebration and sound parts/effects visible for red
 			if part:IsA("BasePart") then
 				part.Transparency = 0	
 			end
