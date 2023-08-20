@@ -1,4 +1,4 @@
-#Handles all local client-side events such as sfx and animation.
+--Handles all local client-side events such as sfx and animation.
 
 local Tool = script.Parent
 local AnimationR6 = script:WaitForChild("AnimationR6", 1)
