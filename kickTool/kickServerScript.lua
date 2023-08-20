@@ -1,4 +1,4 @@
-#Handles server-side interactions with ball
+--Handles server-side interactions with ball
 
 local soccerBall = game.Workspace.SoccerBall
 local kick = script.Parent
